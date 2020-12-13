@@ -59,7 +59,6 @@
     [myBook addBook:bookTemp];
     resultTextView.text = @"책이 추가 됐습니다.";
     countLabel.text = [NSString stringWithFormat:@"%li", [myBook countBook]];
-    
 }
 
 -(IBAction)findBookAction:(id)sender{
